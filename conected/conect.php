@@ -2,7 +2,7 @@
 $host = 'localhost';
 $db = 'to_do_list';
 $user = 'root';
-$pas = 'tac25879';
+$pas = '';
 
 class conect
 {

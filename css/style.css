@@ -1,6 +1,7 @@
 body{
     text-align: center;
     font-family: vazir;
+    /* font-style: italic; */
 }
 #form{
     margin-top: 50px;
@@ -8,5 +9,22 @@ body{
 a{
     font-size: 2px;
 }
-
+#img{
+    width: 20px;
+    height: 20px;
+}
+#img-1{
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+}
+.text{
+    text-align: center;
+}
+.table{
+    text-align: center;
+}
+.th{
+    font-size: 1.5rem;
+}
 

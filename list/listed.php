@@ -1,14 +1,4 @@
-<style>
-    /* استایل پیش‌فرض متن */
-    #myText {
-        color: mychek;
-    }
 
-    /* استایل چک باکس تایید */
-    #chek:checked+#mychek {
-        color: red;
-    }
-</style>
 <?php
 
 

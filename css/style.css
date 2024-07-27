@@ -5,26 +5,53 @@ body{
 }
 #form{
     margin-top: 50px;
+    box-shadow:5px 10px 40px 20px rgb(0, 0, 0);
+    border: 15px;
 }
-a{
-    font-size: 2px;
-}
+
+
 #img{
     width: 20px;
     height: 20px;
 }
-#img-1{
-    width: 20px;
-    height: 20px;
-    padding: 2px;
-}
-.text{
-    text-align: center;
-}
-.table{
-    text-align: center;
-}
+
 .th{
     font-size: 1.5rem;
 }
-
+.text-align{
+    text-align: right;
+}
+.mychek{
+    position: relative;
+    display: inline-block; 
+}
+#deletall{
+    width: 100%;
+}
+.handle {
+    position: absolute;
+    background: #c9cacb;
+    cursor: pointer;
+    transition: .5s;
+}
+.myCheck input:checked + .handle {
+    color: blue;
+}
+.handle:before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    background: #FFFFFF;
+    transition: .5s;
+}
+.myCheck input:checked + .handle:before {
+    transform: translateX(30px);
+}
+.form-check-input:checked + .form-check-label{
+    text-decoration:line-through;
+    color: red;
+    font-style: italic;
+}

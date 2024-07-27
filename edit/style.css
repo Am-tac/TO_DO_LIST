@@ -1,0 +1,16 @@
+body{
+    font-family: vazir;
+    box-sizing: border-box;
+}
+#editor{
+    border-radius: 5px;
+}
+
+#box{
+      border: 5px solid rgb(196, 196, 255);
+      padding: 25px;
+      border-radius: 25px;
+      text-align: center;
+      margin:50px;
+      box-shadow: 1px 1px 25px black;
+}

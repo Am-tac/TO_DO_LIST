@@ -40,11 +40,7 @@ $name = $select_run->fetchAll(PDO::FETCH_ASSOC); ?>
                     <img src="./img/edit.png" id="img"></a>
                 <a href="./delet/delet.php?action=delete&id= <?php echo $x['id'] ?>" class="btn btn-outline-danger ms-2 p-1">
                     <img src="./img/delet.png" id="img"></a>
-                <!-- <input class="form-check-input ms-2 p-1 " type="checkbox"> -->
-                <!-- <input type="checkbox" name="" id="chek"> -->
-                <!-- <a href="./yes/yes.php?id= <?php //echo $x['id'] 
-                                                ?>" class="btn btn-outline-success ms-2 p-1 ">
-                <img src="./img/yes.png" id="img"></a> -->
+               
             </td>
         </tr>
 
